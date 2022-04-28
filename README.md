@@ -12,6 +12,10 @@ instanciar. O Factory Method permite a uma classe deferir a instanciação para 
 ##### Um padrão que permite produzir famílias de objetos relacionados sem especificar suas classes concretas
 O Abstract Factory tem como objetivo prover uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 
-##### Singleton
+#### Singleton
 ##### Garante que uma classe tenha apenas uma instância e que essa única instância possa ser acessada globalmente
 Imagine que você criou um objeto, mas depois de um tempo decidiu criar um novo. Em vez de receber um novo objeto, você receberá o que já criou.
+
+#### Monostate
+##### O padrão monostate é geralmente referido como um syntatic sugar sobre o Singleton
+O Monostate evita as complicações de ter uma única instância de uma classe, mas todas as instâncias usam os mesmos dados, isso é feito utilizando membros estáticos.
