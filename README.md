@@ -19,3 +19,7 @@ Imagine que você criou um objeto, mas depois de um tempo decidiu criar um novo.
 #### Monostate
 ##### O padrão monostate é geralmente referido como um syntatic sugar sobre o Singleton
 O Monostate evita as complicações de ter uma única instância de uma classe, mas todas as instâncias usam os mesmos dados, isso é feito utilizando membros estáticos.
+
+#### Builder
+##### Delega a criação de objetos para um builder ao invés de instanciar o objeto concreto diretamente
+Separa a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar representações diferentes.
