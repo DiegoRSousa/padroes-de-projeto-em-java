@@ -23,3 +23,7 @@ O Monostate evita as complicações de ter uma única instância de uma classe, 
 #### Builder
 ##### Delega a criação de objetos para um builder ao invés de instanciar o objeto concreto diretamente
 Separa a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar representações diferentes.
+
+#### Prototype
+##### Define um prototype que retorna uma cópia de si mesmo
+Especifica os tipos de objetos a serem criados usando uma instância como protótipo e cria novos objetos ao copiar este protótipo.
