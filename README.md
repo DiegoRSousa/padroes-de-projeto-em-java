@@ -2,6 +2,7 @@
 Repositório do curso de padrões de projeto da cod3r 
 
 ### Padrões de Projeto Criacionais
+Os padrões criacionais fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização do código já existente.
 
 #### Factory Method
 ##### Resolve o problema de criar objetos de produto sem especificar suas classes concretas
