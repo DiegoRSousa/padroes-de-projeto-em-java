@@ -28,3 +28,10 @@ Separa a construção de um objeto complexo de sua representação para que o me
 #### Prototype
 ##### Define um prototype que retorna uma cópia de si mesmo
 Especifica os tipos de objetos a serem criados usando uma instância como protótipo e cria novos objetos ao copiar este protótipo.
+
+### Padrões de Projeto Estruturais
+Os padrões estruturais explicam como montar objetos e classes em estruturas maiores, mas ainda mantendo essas estruturas flexíveis e eficientes.
+
+#### Adapter
+##### Permite que objetos com interfaces incompatíveis colaborem
+Define uma classe adapter que converte a interface de uma classe em outra que o cliente necessita.
