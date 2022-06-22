@@ -35,3 +35,8 @@ Os padrões estruturais explicam como montar objetos e classes em estruturas mai
 #### Adapter
 ##### Permite que objetos com interfaces incompatíveis colaborem
 Define uma classe adapter que converte a interface de uma classe em outra que o cliente necessita.
+
+#### Bridge
+##### Permite que a abstração e a implementação possam variar independentemente
+Permite que você dívida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas - abstração e implementação - que podem ser desenvolvidas independentemente umas das outras.
+
